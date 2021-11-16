@@ -1,0 +1,4 @@
+[NATS]
+    Addresses                = "ngx-api-r01-03.dp.wb.ru:4222,ngx-api-r03-03.dl.wb.ru:4222,ngx-api-r04-03.dl.wb.ru:4222,ngx-api-r04-03.dp.wb.ru:4222,ngx-api-r05-03.dp.wb.ru:4222"
+    SearchEventSubject       = "wbxsearch.ru.exactmatch.*.searchevent"
+    SearchEventQueue         = "query-hits"
