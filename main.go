@@ -9,6 +9,7 @@ import (
 	"strings"
 
 	// "github.com/nats-io/nats.go"
+	""
 )
 
 func filter(data []byte) {
@@ -43,7 +44,6 @@ func main() {
 		log.Println(err)
 	}
 	filter(data)
-	Config.
 
 	// nc, err := nats.Connect()
 	// if err != nil {
