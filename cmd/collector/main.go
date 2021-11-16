@@ -35,7 +35,6 @@ func main() {
 		log.Println(err)
 	}
 	filter(data)
-	log.Println("Time")
 
 	// nc, err := nats.Connect()
 	// if err != nil {
